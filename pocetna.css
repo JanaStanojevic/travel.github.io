@@ -1,0 +1,150 @@
+#stranica
+{
+			margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+			background-image:url(https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=ais);
+			background-repeat:no-repeat;
+			width:100%;
+			height:100%;
+			background-size:cover;	
+			position:fixed;
+
+}
+		#gore
+		{
+			height:40%;
+			width:100%;
+			float:left;
+			
+		}
+		    .menu-container {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            width: 60%; 
+            padding: 10px;
+        }
+
+        .menu-item {
+            padding: 10px 20px;
+            border-radius: 5px;
+			font-size:35px;
+			font-family:Lucida Console
+        }
+		.menu-item:hover
+		{
+			border-bottom:2px solid black;
+			
+		}
+		
+		
+
+		
+		#sredina
+		{
+		height:40%;
+		width:100%;
+		float:left;
+		}
+				
+		.slider-container {
+			max-width: 100%;
+			position: relative;
+			margin: auto;
+			overflow: hidden;
+			height:100%;
+			
+
+		  }
+
+		  .slider {
+			display: flex;
+			transition: transform 0.5s ease;
+		  }
+
+		  .slide {
+			flex: 0 0 100%;
+			width: 100%;
+		  }
+
+		  img {
+			width: 100%;
+			vertical-align: top;
+			opacity: 1;
+		  }
+
+		  .prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: auto;
+			padding: 20px;
+			color: white;
+			font-weight: bold;
+			font-size: 20px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			background-color: rgba(0, 0, 0, 0.5);
+		  }
+
+		  .prev {
+			left: 0;
+			border-radius: 3px 0 0 3px;
+		  }
+
+		  .next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		  }
+
+		  .prev:hover, .next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+			border-bottom:2px solid white;
+		  }
+
+
+		#dole
+		{
+		height:10%;
+		width:100%;
+		float:left;
+		}
+		
+		.instagram {
+          position: fixed;
+          bottom: 10px;
+           right: 20px;
+        }
+
+        .instagram .insta-link {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .instagram .insta-image {
+            width: 90px; /* Adjust size as needed */
+            height: 90px; /* Adjust size as needed */
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .instagram .insta-image:hover {
+            opacity: 1;
+        }
+		
+		
+		
+		

@@ -1,0 +1,55 @@
+<!doctype.html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="kontakti.css">
+</head>
+<body background="https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=ais" >
+
+		<div id="naslov">
+		<h1 style="text-align:center;font-size:50px;font-family:Lucida Console;padding-top:70px">PRIJAVI SE</h1>
+	
+		</div>
+				
+				
+		<div id="donji">	
+					<div class="container">
+				  <form id="signupForm" action="#" method="POST">
+					<div class="form-group">
+					  <label for="ime">Ime:</label>
+					  <input type="text" id="ime" name="ime" required>
+					</div>
+
+					<div class="form-group">
+					  <label for="prezime">Prezime:</label>
+					  <input type="text" id="prezime" name="prezime" required>
+					</div>
+
+					<div class="form-group">
+					  <label for="telefon">Broj telefona:</label>
+					  <input type="tel" id="telefon" name="telefon" required>
+					</div>
+
+					<div class="form-group">
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" required>
+					</div>
+
+					<input type="submit" value="Prijavi se">
+				  </form>
+				</div>
+
+				<script>
+				  // JavaScript kod za animaciju pojavljivanja polja forme
+				  document.addEventListener('DOMContentLoaded', function() {
+					var formGroups = document.querySelectorAll('.form-group');
+					setTimeout(function() {
+					  formGroups.forEach(function(group) {
+						group.classList.add('show');
+					  });
+					}, 500); // Prikazujemo polja nakon 500ms
+				  });
+				</script></div>	
+			
+			
+</body>

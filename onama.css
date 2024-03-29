@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+#naslov
+{
+	
+}
+.content {
+    text-align: center;
+	margin-top:0;
+}
+
+.text {
+    margin-bottom: 40px;
+	margin-left:210px;
+	margin-right:210px;/* Razmak između teksta i slideshow-a */
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 900px;
+	margin-left:450px;
+	margin-right:450px;/* ili koliko god želite */
+}
+
+.mySlides {
+    display: none;
+    width: 100%; /* Puno širine slike */
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
